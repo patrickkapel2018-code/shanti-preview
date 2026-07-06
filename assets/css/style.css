@@ -711,6 +711,23 @@ body.nav-open { overflow: hidden; }
   border-radius: 50%;
   object-fit: cover;
 }
+.avatar-initial {
+  flex: none;
+  width: 46px; height: 46px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--green), var(--green-2));
+  color: var(--cream);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.25rem;
+  display: grid;
+  place-items: center;
+}
+.quote-featured .avatar-initial {
+  width: 52px; height: 52px;
+  background: linear-gradient(135deg, var(--gold), var(--gold-soft));
+  color: var(--green-dark);
+}
 .quote-card .quote-author .name { font-weight: 800; font-size: .92rem; }
 .quote-card .quote-author .role { font-size: .8rem; color: rgba(29,29,29,.5); }
 
